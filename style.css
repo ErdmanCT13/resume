@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.resume__content{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    height: 11in;
+    width: 8.5in;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    break-after: page;
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 90%);
+}
+.resume__header{
+    height: 70px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume__name{
+    font-size: 30px;
+}
+.resume__header-info{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.resume__header-info > div{
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    -webkit-print-color-adjust: exact;
+    /* background: hsl(0, 0%, 92%); */
+
+}
+.resume__section{
+    box-sizing: border-box;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.resume__section-header{
+    padding: 7px 0;
+    height: fit-content;
+    width: 100%;
+    font-size: 20px;
+    border-width: 0px 0 1px 0;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 25px;
+}
+.resume-section__item{
+    margin-bottom: 15px;
+    flex-shrink: 0;
+    font-size: 14px;
+    line-height: 130%;
+}
+.bold{
+    font-weight: 700;
+}
+.italic{
+    font-style: italic;
+}
+.resume-section__highlight{
+    padding: 0px 5px;
+    border-radius: 3px;
+    -webkit-print-color-adjust: exact;
+    margin-right: 5px;
+    background: hsl(0, 0%, 92%);
+}
+
+@media print{
+    .resume-content{
+        border: none;
+    }
+    .hilarious-joke{
+        display: none;
+    }
+    .check-online{
+        display: block;
+    }
+}
