@@ -1,100 +1,116 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap"
-        rel="stylesheet">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap"
+      rel="stylesheet" />
     <title>My Resume</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <div class="resume__content">
-        <div class="resume__header">
-            <div class="resume__name">Carl Erdman</div>
-            <div class="resume__header-info">
-                <div class="resume__github">github.com/ErdmanCT13</div>
-                <div class="resume__portfolio">cerdman.me</div>
-                <div class="resume__phone-number">920-650-6713</div>
-                <div class="resume__email">erdman_carl@hotmail.com</div>
-            </div>
-
+      <div class="resume__header">
+        <div class="resume__name">Carl Erdman</div>
+        <div class="resume__header-info">
+          <div class="resume__github">github.com/ErdmanCT13</div>
+          <!-- <div class="resume__portfolio">cerdman.me</div> -->
+          <div class="resume__phone-number">920-650-6713</div>
+          <div class="resume__email">erdman_carl@hotmail.com</div>
         </div>
-        <div class="resume__section resume__section--education">
-            <div class="resume__section-header">Education</div>
-            <div class="resume-section__item">
-                <span class="bold italic resume-section__highlight">University Of Wisconsin Whitewater (2015 -
-                    2019)</span>
-                3.4 GPA,
-                Computer Science Major, Mathematics Minor
-            </div>
+      </div>
+      <div class="resume__section resume__section--skills">
+        <div class="resume__section-header">Core Skills</div>
+        <div class="resume-section__item">
+          React, Sveltekit, Javascript/Typescript, CSS, Express.js, AWS, Azure,
+          C#/.NET
         </div>
-        <div class="resume__section resume__section--skills">
-            <div class="resume__section-header">Core Skills</div>
-            <div class="resume-section__item">
-                React, Javascript, CSS, Express.js, AWS, Azure, C#/.NET
-            </div>
+      </div>
+      <div class="resume__section resume__section--work">
+        <div class="resume__section-header">Professional Experience</div>
+        <div class="resume-section__item">
+          <span class="bold italic resume-section__highlight"
+            >Paradigm, Software Developer, January 2022 - Present</span
+          >
+          <br />
+          <br />
+          - Participated in and led scrum ceremonies (daily standup, refinement,
+          retro, etc).
+          <br />
+          - Worked with core group of developers to plan and architect a long
+          running migration away from an existing legacy code base.
+          <br />
+          - Independently gathered and documented requirements for upcoming
+          work, and lead discussion on findings in and out of scrum ceremonies.
+          <br />
+          - Investigated multiple critical performance issues and worked to
+          provide a slate of recommended solutions for each one.
+          <br />
+          - Led effort to improve telemetry across both legacy and non-legacy
+          applications, reducing developer time spent debugging as part of
+          technical support.
         </div>
-        <div class="resume__section resume__section--work">
-            <div class="resume__section-header">Professional Experience</div>
-            <div class="resume-section__item">
-                <span class="bold italic resume-section__highlight">iButtonLink, Programmer I, 2018 - 2021 </span>
-                <br/>
-                <br/>
-                - Set up platform critical development environments in AWS.
-                <br/>
-                - Played crucial role in designing and implementing serverless platform API using AWS Lambda, API Gateway, and Cognito.
-                <br/>
-                - Leveraged current frontend technologies like Javascript, CSS, and Electron to create functional, usable, and intuitive web/desktop experiences.
-                <br/>
-                - Worked with team in prominent role to design JSON based network protocol for sensor based software platform.
-                <br/> 
-                - Identified and addressed nonconformities in ISO 17025 internal audit process.
-                <br/>
-                - Conducted and approved customer sensor calibrations in accordance with ISO 17025 calibration standards. 
-            </div>           
-
-            <div class="resume-section__item">
-                <span class="bold italic resume-section__highlight">Westbend Mutual (Contract) August 2021 - December 2021</span>
-                <br/>
-                <br/>
-                - Worked in Agile environment to implement high level product objectives. 
-                <br/>
-                - Worked with .NET, Azure Cloud/ Azure Devops to build, deploy and maintain, core functionality for new product. 
-                <br/>
-                - Coordinated with other developers to efficiently and effectively distribute and complete stories/tasks
-            </div>
+      </div>
+      <div class="resume-section__item">
+        <span class="bold italic resume-section__highlight"
+          >Westbend Mutual (Contract) August 2021 - December 2021</span
+        >
+        <br />
+        <br />
+        - Worked in Agile environment to implement high level product
+        objectives.
+        <br />
+        - Worked with .NET, Azure Cloud/ Azure Devops to build, deploy and
+        maintain core functionality for a new product.
+        <br />
+        - Coordinated with other developers to efficiently and effectively
+        distribute and complete stories/tasks.
+      </div>
+      <div class="resume-section__item">
+        <span class="bold italic resume-section__highlight"
+          >iButtonLink, Programmer I, March 2018 - November 2021
+        </span>
+        <br />
+        <br />
+        - Set up platform critical development environments in AWS.
+        <br />
+        - Played crucial role in designing and implementing serverless platform
+        API using AWS Lambda, API Gateway, and Cognito.
+        <br />
+        - Leveraged frontend web technologies like Javascript, CSS, and
+        Electron to create functional, usable, and intuitive web/desktop
+        experiences.
+        <br />
+        - Worked with team in prominent role to design JSON based network
+        protocol for sensor based software platform.
+        <br />
+        - Identified and addressed nonconformities in ISO 17025 internal audit
+        process.
+        <br />
+        - Conducted and approved customer sensor calibrations in accordance with
+        ISO 17025 calibration standards.
+      </div>
+      <div class="resume__section resume__section--education">
+        <div class="resume__section-header">Education</div>
+        <div class="resume-section__item">
+          <span class="bold italic resume-section__highlight"
+            >University Of Wisconsin Whitewater (2015 - 2019)</span
+          >
+          3.4 GPA, Computer Science Major, Mathematics Minor
         </div>
-        <div class="resume__section resume__section--projects">
-            <div class="resume__section-header">Projects</div>
-            <div class="resume-section__item">
-                <span class="bold italic resume-section__highlight">Desktop Sensor Platform (Work)</span>
-                Designed and implemented frontend/backend for external sensor based software.
-                Leveraged JavaScript and CSS skills to create sleek responsive UI. 
-                Utilized AWS Cognito, Lambda and API Gateway to implement backend architecture, 
-                including user login, notifications, data storage/retrieval and product tracking.  
-            </div>
-            <div class="resume-section__item">
-                <span class="bold italic resume-section__highlight"> Responsive Weather App (Personal)</span>
-                View online at cerdman.me/weatherapp.
-                Used React and National Weather Service API and CSS flexbox to create responsive and mobile friendly web app 
-                for tracking daily weather.
-
-            </div>
-            <div class="resume-section__item">
-                <span class="bold italic resume-section__highlight">Sonar (Personal)</span>
-                View source code online at https://github.com/ErdmanCT13/sonarfrontend
-                Concert tracking app that allows users to connect to their Spotify account via OAuth and track concerts 
-                from the favorite artists by selecting a location and radius via Google Maps. Utilizes a React frontend, while using Express.js as a backend, MySQL/Sequelize for storage
-                and ORM, as well as the Spotify API for integration with the user's Spotify Account. 
-            </div>
+      </div>
+      <div class="resume__section resume__section--projects">
+        <div class="resume__section-header">Projects</div>
+        <div class="resume-section__item">
+          <span class="bold italic resume-section__highlight"
+            >Pointing Poker</span
+          >
+          Minimal pointing poker app. Built with Sveltekit, Tailwind, Azure
+          WebPubSub, and Drizzle ORM. Deployed with Vercel, Github Actions, and
+          Terraform. Deployed to <strong>https://gettothepoint.vercel.app</strong>
         </div>
+      </div>
     </div>
-
-
-
-</body>
-
+  </body>
 </html>
